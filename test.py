@@ -50,4 +50,7 @@ def ssmlNodeToText(node) -> str:
         text += ssmlNodeToText(child)
         if child.tail:
             text += child.tail
+
    return text
+
+git push origin main
